@@ -112,6 +112,10 @@ var CLDX = Class({
 			return format("\1G%s",value);
 		}
 
+		if (value == "MID LAT AUR") {
+			return format("\1G%s",value);
+		}
+
 		return value;
 		
 	},
